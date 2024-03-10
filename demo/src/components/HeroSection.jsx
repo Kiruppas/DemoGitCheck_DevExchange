@@ -25,7 +25,7 @@ const HeroSection = () => {
       }}>
         <div className='flex flex-col items-center justify-center h-full space-y-4'>
             <img src=".\logo.png" className='h-[300px] w-[300px]  ' alt="MS_logo"></img>
-            <p className='text-white font-bold text-4xl font-sans'>DEVEXCHANGE</p>
+            <p className='bg-gradient-to-l text-transparent from-[rgb(239,104,8)] to-[rgb(24,204,216)] bg-clip-text font-bold text-4xl font-sans'>DEVEXCHANGE</p>
             <p className='text-white font-medium font-sans'>"The Lifeline of Developers"</p>
             <div className='flex items-center justify-center gap-4'>
                 <button onClick={handleRegisterButtonClick} className='bg-[rgb(239,104,8)] hover:bg-[rgb(155,71,10)] px-4 py-2 text-black font-semibold rounded-2xl font-sans'>Sign Up</button>
